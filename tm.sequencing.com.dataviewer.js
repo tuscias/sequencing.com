@@ -10,6 +10,10 @@
 // @require         http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
+// ==OpenUserJS==
+// @author tuscias
+// ==/OpenUserJS==
+
 let selector = '.page-secure-app-results .dataTable .hide-content, .page-data-viewer-data .dataTable .hide-content';
 let ruleText = selector + '{}';
 let found = false;
