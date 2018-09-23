@@ -1,18 +1,14 @@
 // ==UserScript==
-// @name         Unlock Data Viewer @ sequencing.com 
-// @namespace    http://github.com/tuscias
-// @version      0.1
-// @description  removees blurry text from Data Viewer
-// @author       tuscias
-// @match        https://sequencing.com/*
-// @grant        none
+// @name UnlockDataViewer@sequencing.com 
+// @description Top and Down buttons everywhere (no Jquery) 
+// @version 0.1
+// @author tuscias
+// @license MIT
+// @include https://sequencing.com/*
 // @run-at document-end
+// @grant none
 // @require         http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
-
-// ==OpenUserJS==
-// @author tuscias
-// ==/OpenUserJS==
 
 let selector = '.page-secure-app-results .dataTable .hide-content, .page-data-viewer-data .dataTable .hide-content';
 let ruleText = selector + '{}';
